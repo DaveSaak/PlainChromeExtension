@@ -1,0 +1,16 @@
+{
+    "name": "Plain",
+    "description": "Plain Chrome Extension with Mz Hours API call",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://api2.myhours.com/*"
+    ],
+    "host_permissions": [
+        "https://api2.myhours.com/*"
+    ]
+
+}
